@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tyra's World 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffd6e0, #e6ffe6);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2em;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 22px;
+  background: white;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.section {
+  display: none;
+  margin-top: 30px;
+  max-width: 750px;
+  margin-inline: auto;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* gallery */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* modal letter */
+.modal {
+  display: none;
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: rgba(0,0,0,0.7);
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 550px;
+  text-align: left;
+  line-height: 1.6;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+/* floating hearts */
+.heart {
+  position: fixed;
+  bottom: -10px;
+  font-size: 20px;
+  animation: floatUp 6s linear infinite;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100vh); opacity:0; }
+}
+
+/* make sure images responsive on small screens */
+@media (max-width: 600px) {
+  h1 { font-size: 2.2em; }
+  .gallery img { max-width: 90%; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Welcome to Tyra's World 💖</h1>
+<p>only a few people belong here... and you are everything</p>
+
+<div>
+  <span class="btn" onclick="showSection('love')">Why I Love You</span>
+  <span class="btn" onclick="showSection('memories')">Our Memories</span>
+  <span class="btn" onclick="showSection('future')">Our Future</span>
+</div>
+
+<!-- Why I Love You -->
+<div id="love" class="section">
+<h2>Why I Love You</h2>
+<p>
+BABYYYYYY I LOVEVEVEVE UUU FOR A LOT OF REASONS AND I DONT THINK I CAN EVER LIMIT THEMMM OR SAY THEMMM FULLY BCZ MY LOVE IS NEVER ENDING FOR UUU..TYRAAAA U MEAN THE WORLD TO MEEEE U MEAN EVERYTHING MY WELL BEING MY SADNESS MY HAPPINESS MY EVERYTHINGGG I DONT KNOW HOW I STARTED LOVING UUUU BUT I DIDDDDD ANDNNDND NOW I LOVE U THAT MUCH THAT I CAN NEVER LOVE U LESS..THANK U SO MUCHHHH FOR COMING INTO MY LIFEEE...I NEED U LIKEKE THE OXYGEN I BREATHEEEE THANKS FOR HEALING MEEE FOR LOVING ME IN THE PUREST WAYYYY ANDDNDND STAYING BY MY SIDEEEE EVEN THROUGH THE HARDEST TIMES...I DID SO MANY WRONG THINGS BUT U NEVER LEFT MEEEE..I WILL FOREVER BE GRATEFUL TO U FOR STAYING THIS PATIENT AND PERSISTENT WITH MEEE I LOVEVEV UUU MY DARLINGGG...I HOPE U WILL ALWAYS FORGIVEEE MEEEE FOR WHATEVER III DOOO...I HOPEEEE UUU WILL ALWAYS UNDERSTANDDDD MEEEEE IM ALWAYS TRYING TO BE A BETTER VERSION OF MYSELF FOR U..I LOVEVE UUU UUU ALWAYS MADE ME FEEL SPECIALL...U ALWAYS GAVE MEEE TIMEMEME WHENEVER I WAS HEREEEEE AND EVEN WHEN U WERE PLAYING WITH URR FRIENDS..UUU STAYED WATCHING ME EVEN WHEN EVERYONE WAS GONE JUST FOR MEEE...U WOULD WRITE PARAGRRAPH WHEN I WOULD ONLY REPLY IN 2 LINES THE EFFORTS U SHOWED THE DEDICATION U HAD...HOW CAN I NOT LOVEVEVE UUU???U DESERVE EVERYTHING BABY EVERYTHINGGGG I HOPEEEE LIFE IS GOINGGG EASYYY ON UUUUU IM URRRR ONE ANDNDND ONLYYY LOVEVEV ANDNDND EHEHEHE WE WILL FOREVER BEEE TOGETHERRR
+</p>
+</div>
+
+<!-- Memories -->
+<div id="memories" class="section">
+<h2>Our Memories</h2>
+<p>click each moment 💌</p>
+
+<div class="gallery">
+  <img src="IMG_20250921_155059_724.jpg" alt="Memory 1" 
+       onclick="openModal(`📅 21st September<br><br>HEY YOU EHEHE UUU SEE THIS PIC??
+DO YOU REMEMBER THIS PIC? THIS PIC DOESNT JUST HOLD A PLACE IN MY HEART BUT A SPECIAL PLACE I CAN NEVER FORGET.
+ANYONE SEEING THIS FROM OUTSIDE MIGHT SAY ITS JUST AN ORDINARY PIC… BUT ITS NOT. IT HOLDS SO MUCH MEANING TO ME.
+
+THE DATE WAS 21ST SEPTEMBER AND EVERYTHING WAS NORMAL UNTIL YOU ASKED ME TO COME TO YOUR FRIEND'S BIRTHDAY.
+I WAS HESITATING, BUT I STILL WENT WITH YOU.
+I WAS SHY WHEN WE SAT TOGETHER… EVEN IF IT DIDNT LOOK LIKE IT. INSIDE, I WAS LIKE A WHOLE RED FLOWER GARDEN.
+
+THEN THE FOOD CAME… AND THE FIRST THING YOU DID WAS FEED ME. LIKE WHAT?? HOW WERE YOU SO CONFIDENT?
+THAT WAS THE MOMENT I FELT SO LOVED I COULDNT EVEN EXPRESS IT. I FED YOU TOO… BECAUSE WHY NOT… YOU ALREADY BROKE THE SHYNESS BETWEEN US.
+
+AND THEN AFTER WE FINISHED EATING… YOU STARTED POKING MY HAND… AND I UNDERSTOOD YOU WANTED TO HOLD IT. AND WE DID.
+I HAVE NEVER FELT THAT LOVED IN MY LIFE. IT FELT LIKE EVERYTHING WAS COMPLETE.
+
+THANK YOU FOR GIVING ME SUCH A BEAUTIFUL TIME.
+I WILL ALWAYS REMEMBER OUR FIRST DATE. I LOVE YOU 💖`)">
+
+  <img src="IMG_20251105_171245_134.jpg"alt="Memory 2" 
+       onclick="openModal(`📅 5th November<br><br>ANOTHERRR OF OURRR GREAT MEMORYYY…
+I HOPE U ALSO REMEMBER HOW MUCH FUN WE HAD THAT DAY…
+
+WE WENT ON A RICHSHAW DATE BUT BEFORE IT WAS A DAY FILLED WITH MESS…
+DO U REMEMBER HOW SAD WE WEREEE BECAUSE UR PARENTS FOUND OUT ABOUT US AND TOLD U NOT TO CONTINUE AND BROKE U IN EVERY WAY POSSIBLEEE…
+U CAMEEE CRYING TOO MEEEE, TELLINGGGG EVERYTHINGGG, ANDNDD TRUST MEE, U WERENT THE ONLYYY ONE WHO WAS BROKENN AND CRYINGG.
+I WAS ABOUT TO CRY AS WELL BUT SEEING U LIKE THATT I CHOSE TO SUPPORT, BUT INSIDE I WAS DEAD…
+
+BUT EVERY BAD THINGS EVENTUALLY LEADS TO A GOOD ENDING, AND THAT'S WHAT HAPPENDED TO USSSS.
+WE WENT ON A RICHSHAW DATEEE ANDNDN ENJOYEDDD IT.
+IT WAS THE FIRST TIME I EVER HELD U THAT CLOSELYYY, AND I WAS THE MOST HAPPIEST SEEING U FEEL RELIEVED ANDND FINALLY FINDING PEACE…
+
+WE ATEE FUCHKHA TOGETHER AND IT WAS FUNNN.
+WE WERE EMOTIONAL REGARDING THAT I WILL GO SO FAR AWAYYYY FROMMM UUU, ANDNDNDN U WILL ALSO GO TO MOHAMMADPUR AND WE COULDN’T TALK FOR 3 DAYS…
+
+ANDNDN THENNN U TEXTEDDD MEEEE ANNDNDND.
+WE WROTE BIG BIG PARAGRAPHS, ANDNDN BEFORE I WENT, WE HUGGED ONE LAST TIMEMEM AND WE HUGGED SOSOSO TIGHTTTT I COULDN’T FEEL MY OWNNN BODYYY.
+EHEHEHE SUCH A HEAVENLY DAY FOR MEEE. THANK YOUUU DARLINGGG ❤️❤️☹️`)">
+
+  <img src="IMG_20260129_154904.jpg" alt="Memory 3" 
+       onclick="openModal(`📅 29th January<br><br>ANOTHER GREAT MEMORYYY…
+IT’S NOT ONLY A MEMORY, IT’S AN ADVENTURE THAT I GOT TO EXPERIENCE WITH MY DARLINGGG…
+
+IT WAS MAYBE OUR FIRST DATE AFTER GETTING CAUGHT, AND IT WAS THE BEST EVERRR…
+IT WAS OUR SPORTS DAYYY AND EVERYTHING WAS GOING RIGHT FOR USSSS…
+
+I WON A MEDAL, SO DID UUU, ANDND WE PLANNED TO GO SOO FARR WITH ALL OUR MONEYYY, ANDNDN WE DID EXACTLYYYY.
+WE WENTTT TO THEREEEEE IN RICHSHAW AND WE SHARED SO MUCH INTIMATE MOMENT TOGETHERR.
+
+ANDNNDND THENNN COMES THIS PICCCCC, WHICHHHHH WILL FOREVER BE SEALED IN MY HEART,
+BECAUSE IT WAS OUR LAST DATE BEFORE A LONG AND VERY HARD TIMMEMMEE…
+
+THIS IS THE PIC THAT I WILL DEFINITELYYYY FRAME ONCE WE LIVE TOGETHERRR,
+AND THAT'S SOME OF OUR BEST MEMORIESSSS…
+I HOPE U LOVED ITTT AS MUCH AS I DOOOO. I LOVE YOUUUU 💖`)">
+</div>
+</div>
+
+<!-- Future -->
+<div id="future" class="section">
+<h2>Our Future</h2>
+<p>
+we’re going to stay together through everything, no matter how hard things get or how messy life becomes, because what we have isn’t something small that can just fade away… it’s something real, something that keeps growing every single day. i see us having more late night calls where we talk about everything and nothing at the same time, laughing at the dumbest things, fixing our fights, understanding each other more, and never letting go even when things get tough. i see us going on more trips together, creating memories that we’ll look back on and smile about, being there for each other in every moment, whether it’s the happiest days or the hardest ones. and one day, not just dreaming about it but actually living it, being together for real, building a life where it’s always you and me, taking care of each other, choosing each other again and again… because no matter what happens, i know one thing for sure — i want you in every part of my future 💖
+</p>
+</div>
+
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <div class="modal-content" id="modalText"></div>
+</div>
+
+<!-- Background Music -->
+<audio autoplay loop>
+  <source src="tumi.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function showSection(id){
+  document.querySelectorAll('.section').forEach(s=>s.style.display='none');
+  document.getElementById(id).style.display='block';
+}
+window.onload = function() {
+  showSection('love');
+};
+
+function openModal(text){
+  document.getElementById('modal').style.display='flex';
+  document.getElementById('modalText').innerHTML = text.replace(/\n/g,'<br><br>');
+}
+
+function closeModal(){
+  document.getElementById('modal').style.display='none';
+}
+
+setInterval(()=>{
+  let h=document.createElement('div');
+  h.className='heart';
+  h.style.left=Math.random()*100+'vw';
+  h.innerHTML='💖';
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),6000);
+},500);
+</script>
+
+</body>
+</html>
